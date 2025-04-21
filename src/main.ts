@@ -1,24 +1,32 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import "./style.css";
+// import taskBasic1 from "./basic/1.ts";
+// import taskBasic2 from "./basic/2.ts";
+// import taskBasic3 from "./basic/3.ts";
+// import taskBasic4 from "./basic/4.ts";
+// import taskBasic5 from "./basic/5.ts";
+// import taskBasic6 from "./basic/6.ts";
+// import taskBasic7 from "./basic/7.ts";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+import taskGenerics1 from "./generics/1.ts";
+import taskGenerics2 from "./generics/2.ts";
+import taskGenerics3 from "./generics/3.ts";
+import taskGenerics4 from "./generics/4.ts";
+import taskGenerics5 from "./generics/5.ts";
+import taskGenerics6 from "./generics/6.ts";
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+// taskBasic1();
+// taskBasic2();
+// taskBasic3();
+// taskBasic4();
+// taskBasic5();
+// taskBasic6();
+// taskBasic7();
+
+taskGenerics1();
+taskGenerics2();
+taskGenerics3();
+taskGenerics4();
+taskGenerics5();
+taskGenerics6();
+
+// const app = document.querySelector<HTMLDivElement>("#app");
