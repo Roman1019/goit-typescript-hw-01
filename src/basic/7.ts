@@ -1,4 +1,4 @@
-export default function taskBasic6() {
+export default function taskBasic7() {
   interface IPage {
     title: string;
     likes: number;
